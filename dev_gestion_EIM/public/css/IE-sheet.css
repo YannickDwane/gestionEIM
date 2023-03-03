@@ -1,0 +1,183 @@
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active){
+  /* IE10+ CSS styles go here */
+  /*corps*/
+  html {
+    /* position: relative; */
+    min-height: 100%;
+  }
+
+  body{
+    /* height: 100%; */
+    width:100%;
+    overflow-x: hidden;
+  }
+
+  .clear{
+    clear:both;
+  }
+
+  /* .row{
+  width: 100%;
+  } */
+
+  /* Fin corps
+
+  /* Entete pour la connexion */
+  div.entete{
+    border: solid 1px gray;
+    background-color: white;
+    height: 20%;
+  }
+  div.entete>h1{
+
+    color: #0464b0;
+    font-weight: bold;
+  }
+  div.entete>h1>img{
+
+    margin-right: 10%;
+    width: 5%;
+    height:auto;
+  }
+  /* Fin entete */
+
+
+  /* Entete quand l'utilisateur est connecté'*/
+  header{
+    border: solid 1px gray;
+    background-color: #0464b0;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 35px;
+    margin-bottom: 3.2%;
+
+  }
+
+    .d_none{
+      display: none;
+    }
+
+    .fl-l{
+      float: left;
+    }
+
+    .fl-r{
+      float: right;
+    }
+
+    .left{
+      width: 960px;
+      text-align: left;
+    }
+
+    .right{
+      width: 960px;
+      text-align: right;
+      position: relative;
+      left: 750px;
+    }
+
+  /* Bouton de déconnexion */
+  header .btn{
+    background-color: #0464b0;
+    color: white;
+  }
+
+  header .btn .icon{
+    font-size: 25px;
+  }
+
+  /* Fin entete */
+
+
+  /* Pied de page */
+
+  p a{
+    color:#ffff;
+  }
+  p a:hover{
+    color:#ffea00;
+  }
+
+  .footer{
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    border: solid 1px gray;
+    color: #0464b0;
+    font-weight: bold;
+
+  }
+
+  img{
+    cursor: pointer;
+  }
+
+  /* Fin pied de page */
+
+  /*Tableau des EIM*/
+  #tabEim{
+    text-align: center;
+    color:#0464b0 ;
+    font-size: 100%;
+    margin-left: -10px;
+
+  }
+
+
+
+
+  #tabEim>tbody>tr>td>img{
+
+    width: 50%;
+    height: auto;
+    margin-top: 50%;
+
+  }
+
+  button .button_search{
+    font-size: 250px;
+
+  }
+
+  button:active {
+    outline: none;
+    border:none;
+    transform: translateY(4px);
+  }
+
+  button:focus {
+    outline: none;
+    border:none;
+  }
+
+  /*infobulle*/
+
+  .row1{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+
+  .column3{
+    text-align:center;
+    justify-content: center;
+  }
+
+
+  .column4{
+    display : flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction:  column;
+  }
+
+  input, .style1{
+    width: 40%;
+    line-height: 100%;
+  }
+
+}

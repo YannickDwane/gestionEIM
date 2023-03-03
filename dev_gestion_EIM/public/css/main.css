@@ -1,0 +1,335 @@
+/*corps*/
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+    height: 100%;
+}
+
+
+.row{
+    width: 100%;
+}
+
+/* Fin corps
+
+/* Entete pour la connexion */
+div.entete{
+border: solid 1px gray;
+background-color: white;
+height: 20%;
+}
+div.entete>h1{
+
+    color: #0464b0;
+    font-weight: bold;
+}
+div.entete>h1>img{
+
+    margin-right: 10%;
+    width: 5%;
+    height:auto;
+}
+/* Fin entete */
+
+
+/* Entete quand l'utilisateur est connecté'*/
+header{
+  /* border: solid 1px gray; */
+  background: linear-gradient(153deg, rgba(1,72,130,1) 0%, rgba(79,172,241,1) 100%);
+  color: white;
+  font-size: 25px;
+  /* padding-bottom: 35px; */
+  margin-bottom: 3.2%;
+
+}
+
+/* Bouton de déconnexion */
+header .btn{
+    background-color: #0464b0;
+    color: white;
+}
+
+header .btn .icon{
+    font-size: 25px;
+}
+
+.gst_eim_name {
+  font-family: OpenSans-Regular, sans-serif;
+  height: 50px;
+  width: 150px;
+  margin-top: 30px;
+  margin-left: -10px;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.enteteEim {
+  height: 180px;
+}
+
+.home_gsteim {
+  margin-top: 15px;
+  margin-left: -8px;
+}
+/* Fin entete */
+
+/* Pied de page */
+
+p a{
+  color:#ffff;
+}
+p a:hover{
+  color:#ffea00;
+}
+
+.footer{
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    border: solid 1px gray;
+    color: #0464b0;
+    font-weight: bold;
+
+}
+
+img{
+  cursor: pointer;
+}
+
+/* Fin pied de page */
+
+/*Tableau des EIM*/
+#tabEim{
+    text-align: center;
+    color:#0464b0 ;
+    font-size: 100%;
+    margin-left: -10px;
+
+}
+
+
+
+
+#tabEim>tbody>tr>td>img{
+
+    width: 50%;
+    height: auto;
+    margin-top: 50%;
+
+}
+
+button .button_search{
+    font-size: 250px;
+
+}
+
+button:active {
+  outline: none;
+  border:none;
+  transform: translateY(4px);
+}
+
+button:focus {
+  outline: none;
+  border:none;
+}
+
+/*infobulle*/
+
+.row1{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+
+.column3{
+  text-align:center;
+  justify-content: center;
+}
+
+
+.column4{
+    display : flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction:  column;
+}
+
+input, .style1{
+    width: 40%;
+    line-height: 100%;
+}
+
+/*Barre de pourcentage*/
+
+.ui-progressbar{
+  position: relative;
+}
+/*Pour la première catégorie de switch*/
+#numberB1, #numberC1, #numberJ1, #numberM1{
+  left: 30%;
+  position: absolute;
+}
+
+#numberB1{
+  color: red;
+}
+
+#numberC1, #numberJ1, #numberM1{
+  color: #000000;
+}
+
+.B .ui-progressbar-value{
+   background-color: Black;
+   border: 11px;
+}
+
+.M .ui-progressbar-value{
+  background-color: Magenta;
+  border: 11px;
+}
+
+.C .ui-progressbar-value{
+  background-color: #00FFFF;
+  border: 11px;
+}
+
+.J .ui-progressbar-value{
+  background-color: #FFE801;
+  border: 11px;
+}
+
+/*Pour la Deuxième catégorie de switch*/
+#numberB2, #numberC2, #numberJ2, #numberM2{
+  left: 30%;
+  position: absolute;
+}
+
+#numberB2{
+  color: red;
+}
+
+#numberC2, #numberJ2, #numberM2{
+  color: #000000;
+}
+
+#BarB2 .ui-progressbar-value{
+   background-color: Black;
+   border: 11px;
+}
+
+#BarM2 .ui-progressbar-value{
+  background-color: Magenta;
+  border: 11px;
+}
+
+#BarC2 .ui-progressbar-value{
+  background-color: #00FFFF;
+  border: 11px;
+}
+
+#BarJ2 .ui-progressbar-value{
+  background-color: #FFE801;
+  border: 11px;
+}
+
+
+/*Pour la Troisième catégorie de switch*/
+#numberB3{
+  color: red;
+  left: 30%;
+  position: absolute;
+}
+
+.bar .ui-progressbar-value{
+   background-color: Black;
+   border: 11px;
+}
+
+/*Pour la Quatrième catégorie de switch*/
+#numberB4{
+  color: red;
+  left: 30%;
+  position: absolute;
+}
+
+#BarB4 .ui-progressbar-value{
+   background-color: Black;
+   border: 11px;
+}
+
+/*Pour la Cinquième catégorie de switch*/
+#numberB5{
+  color: red;
+  left: 30%;
+  position: absolute;
+}
+
+#BarB5 .ui-progressbar-value{
+   background-color: Black;
+   border: 11px;
+}
+
+/*Pour la Septième catégorie de switch*/
+#numberB7{
+  color: red;
+  left: 30%;
+  position: absolute;
+}
+
+#BarB7 .ui-progressbar-value{
+   background-color: Black;
+   border: 11px;
+}
+
+/*Pour la Huitième catégorie de switch*/
+#numberB8{
+  color: red;
+  left: 30%;
+  position: absolute;
+}
+
+#BarB8 .ui-progressbar-value{
+   background-color: Black;
+   border: 11px;
+}
+
+/*Pour la neuxième catégorie de switch*/
+#numberB9, #numberC9, #numberJ9, #numberM9{
+  left: 30%;
+  position: absolute;
+}
+
+#numberB9{
+  color: red;
+}
+
+#numberC9, #numberJ9, #numberM9{
+  color: #000000;
+}
+
+#BarB9 .ui-progressbar-value{
+   background-color: Black;
+   border: 11px;
+}
+
+#BarM9 .ui-progressbar-value{
+  background-color: Magenta;
+  border: 11px;
+}
+
+#BarC9 .ui-progressbar-value{
+  background-color: #00FFFF;
+  border: 11px;
+}
+
+#BarJ9 .ui-progressbar-value{
+  background-color: #FFE801;
+  border: 11px;
+}

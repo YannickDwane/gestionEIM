@@ -1,0 +1,12 @@
+.hidden{
+  /* display: none; */
+  visibility: hidden;
+}
+
+.test{
+  text-align: center;
+  font-weight: bold;
+  /* color: red; */
+  font-size: 25px;
+  background-color: #DB7093;
+}
